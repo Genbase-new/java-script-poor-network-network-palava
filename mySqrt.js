@@ -1,17 +1,14 @@
 function mySqrt(number){
-    let result=Math.pow(number,0.5);
+    for(let count =1; count<number;  count++){
+        if (count * count > number){
+        return count -1
+        }
+    }
 
-	return Math.floor(result);
+
 }
-const x= mySqrt(8);
-
-console.log(x);
 
 
 
 
-
-
-
-
-
+console.log (mySqrt(16));
