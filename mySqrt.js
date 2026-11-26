@@ -11,4 +11,5 @@ function mySqrt(number){
 
 
 
-console.log (mySqrt(16));
+const x=mySqrt(8);
+console.log(x)
